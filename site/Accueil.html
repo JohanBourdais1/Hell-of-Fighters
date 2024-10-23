@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="logoHoF.png" type="image/png">
+    <link href="style.css" rel="stylesheet">
+    <title>Hell of Fighters</title>
+    <script>
+        function change_affiche(target) {
+            document.getElementById("affiche_img").setAttribute("src", target+'.jpg');
+            if (target != 'accueil') {
+                document.getElementById("affiche_link").setAttribute("href", target + '.html');
+            } else {
+                document.getElementById("affiche_link").removeAttribute("href");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="logoHoF.png" style="height: 300px;">
+    </header>
+
+    <div class="menu_container">
+        <ul class="menu">
+            <li style="border-left: 1px solid #5c5c5c;" class="active"><a href="#">Accueil</a></li>
+            <li><a href="Informations.html">Informations</a></li>
+            <li><a href="Telechargement.html">Téléchargement</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="text">
+            <h1>Présentation du jeu</h1>
+
+            <p>
+                Notre jeu s’appelle Hell of Fighters. 
+                C’est un jeu de versus fighting de 1 VS 1 en 3D se jouant en local contre IA ou contre une autre personne en local ou en réseau. 
+                Chaque personnage a des coups et des animations personnalisées. 
+                Des objets spéciaux apparaîtront sur la map aléatoirement ce qui donnera un avantage au joueur qui les récupérera. 
+                Tous les personnages sont dotés de 100 points de vie et arrivés à 0 la partie se termine. Chaque personnage a des caractéristiques différentes. 
+                Certains mettent plus de dégâts, d’autres en prennent moins et bien plus encore.
+
+
+            </p>
+            <h1>Un petit aperçu du jeu<h1>
+                <h3>1 vs 1 sur la map 1 :</h3>
+                    <img src="Apercu_map1.jpg" style="height: 300px;">
+                <h3>1 vs 1 sur la map 2 :</h3>
+                    <img src="Apercu_map2.jpg" style="height: 328px;">
+    </div>
+</div>
+
+</body>
+</html>

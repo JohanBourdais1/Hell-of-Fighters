@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    background-color: #080808;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #080808;
+    border-top: 1px solid #414141;
+    letter-spacing: 1px;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.menu li {
+    float: left;
+    border-right: 1px solid #414141;
+}
+
+ul.menu li.active {
+    background-color: #2d2d2d;
+}
+
+ul.menu li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: orangered;
+}
+
+.affiche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    margin: 2em;
+    color: grey;
+}
+
+.text {
+    width: 75%;
+    color: #F0FFFF;
+}
+
+.panel {
+    display: flex;
+    align-items: flex-start;
+    margin: 2em;
+    color: darkgrey;
+
+    width: 50%;
+    padding: 0.5em;
+    border-radius: 1px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+    .panel th, td {
+        padding: 0px 0.8em 0.8em 0;
+        vertical-align: top;
+        border: 1px solid
+    }
+
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+}
+/*.bouton a:visited {
+    text-decoration: none;
+      Si tu veux changer la couleur
+}
+
+.bouton a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+button {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height: 50px;
+    width: auto;
+    color: white;
+}*/
+.bouton a{
+    text-decoration:none;
+    color: black;
+}
+button {
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 4px double firebrick;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 35px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;        
+    transition: 0.5s;
+}
+
+button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+    button:hover {
+        background-color: red;
+        border: 4px double aliceblue;
+    }
+
+button:hover span {
+    padding-right: 40px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
