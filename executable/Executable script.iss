@@ -28,7 +28,7 @@ DisableProgramGroupPage=yes
 ;PrivilegesRequired=lowest
 OutputDir=E:\Hell-of-Fighters\executable
 OutputBaseFilename=Hell of Fighters setup
-SetupIconFile=E:\Hell-of-Fighters\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Hell of Fighters\Assets\Sprites\logo11.ico
+SetupIconFile=E:\Hell-of-Fighters\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Assets\Sprites\logo11.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -41,12 +41,12 @@ Name: "french"; MessagesFile: "compiler:Languages\French.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Hell of Fighters\Build\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Hell of Fighters\Build\UnityCrashHandler64.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Hell of Fighters\Build\UnityPlayer.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Hell of Fighters\Build\Hell of Fighters_BurstDebugInformation_DoNotShip\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Hell of Fighters\Build\Hell of Fighters_Data\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Hell of Fighters\Build\MonoBleedingEdge\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Build\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Build\UnityCrashHandler64.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Build\UnityPlayer.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Build\Hell of Fighters_BurstDebugInformation_DoNotShip\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Build\Hell of Fighters_Data\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Hell-of-Fighters\Hell-of-Fighters-Project\Hell of Fighters\Build\MonoBleedingEdge\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
